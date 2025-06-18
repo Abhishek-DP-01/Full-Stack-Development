@@ -1,0 +1,21 @@
+<!Doctype>
+<html>
+  <head>
+    <title>Current Date and Time</title>
+  </head>
+  <body>
+    <h1 style="text-align:center;">Current Date and Time</h1>
+    <div style="text-align:center;">
+      <button type="button" style="text-align:center;" onClick="getCurrentDateTime();">Get Current Date Time</button>
+    </div>
+  </body>
+  <script>
+    function getCurrentDateTime(){
+      //let num1=parseInt(prompt("Number 1: "));
+      //let num2=parseInt(prompt("Number 2: "));
+      //alert("Sum of "+num1+" + "+num2+" = "+(num1+num2));
+      let datetime=new Date();
+      alert("Current Date Time: "+datetime.toLocaleString());
+    }
+  </script>
+</html>

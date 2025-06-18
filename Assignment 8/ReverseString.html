@@ -1,0 +1,22 @@
+<!Doctype>
+<html>
+  <head>
+    <title>Reverse the String</title>
+  </head>
+  <body>
+    <h1 style="text-align:center;">Reverse the String</h1>
+    <div style="text-align:center;">
+      <button type="button" style="text-align:center;" onClick="reverseSring();">ReverseString</button>
+    </div>
+  </body>
+  <script>
+    function reverseSring(){
+      //let num1=parseInt(prompt("Number 1: "));
+      //let num2=parseInt(prompt("Number 2: "));
+      //alert("Sum of "+num1+" + "+num2+" = "+(num1+num2));
+      let str = prompt("Enter the String to Reverse: ");
+      let revString=str.split('').reverse().join('');
+      alert("Reverse of the String "+str+" is "+revString);
+    }
+  </script>
+</html>

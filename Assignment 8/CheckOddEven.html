@@ -1,0 +1,26 @@
+<!Doctype>
+<html>
+  <head>
+    <title>Check Number is Odd or Even</title>
+  </head>
+  <body>
+    <h1 style="text-align:center;">Check Number is Odd or Even</h1>
+    <div style="text-align:center;">
+      <button type="button" style="text-align:center;" onClick="CheckOddEven();">CheckOddEven</button>
+    </div>
+  </body>
+  <script>
+    function CheckOddEven(){
+      let num1=parseInt(prompt("Number 1: "));
+      //let num2=parseInt(prompt("Number 2: "));
+      if (num1%2==0){
+        alert("Given Number : "+num1+" is Even");
+      }
+      else{
+        alert("Given Number : "+num1+" is Odd");
+      }
+      
+      //alert("Sum of "+num1+" + "+num2+" = "+(num1+num2));
+    }
+  </script>
+</html>
